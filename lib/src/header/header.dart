@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -259,7 +260,7 @@ class ClassicsHeader extends RefreshHeader {
       this.refreshReadyText: "Segarkan",
       this.refreshingText: "Segarkan...",
       this.refreshedText: "Segarkan selesai",
-      this.bgColor: Colors.deepOrange,
+      this.bgColor: Color(0xffE4E4E4),
       this.textColor: Colors.white,
       this.moreInfoColor: Colors.white,
       this.refreshHeight: 70.0,
