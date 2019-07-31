@@ -255,11 +255,11 @@ class ClassicsHeader extends RefreshHeader {
   // 构造函数
   ClassicsHeader(
       {@required GlobalKey<RefreshHeaderState> key,
-      this.refreshText: "Pull to refresh",
-      this.refreshReadyText: "Release to refresh",
-      this.refreshingText: "Refreshing...",
-      this.refreshedText: "Refresh finished",
-      this.bgColor: Colors.blue,
+      this.refreshText: "Segarkan",
+      this.refreshReadyText: "Segarkan",
+      this.refreshingText: "Segarkan...",
+      this.refreshedText: "Segarkan selesai",
+      this.bgColor: Colors.grey,
       this.textColor: Colors.white,
       this.moreInfoColor: Colors.white,
       this.refreshHeight: 70.0,
