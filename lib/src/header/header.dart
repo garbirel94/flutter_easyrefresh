@@ -259,7 +259,7 @@ class ClassicsHeader extends RefreshHeader {
       this.refreshReadyText: "Segarkan",
       this.refreshingText: "Segarkan...",
       this.refreshedText: "Segarkan selesai",
-      this.bgColor: Colors.grey,
+      this.bgColor: Colors.white70,
       this.textColor: Colors.white,
       this.moreInfoColor: Colors.white,
       this.refreshHeight: 70.0,
