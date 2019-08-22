@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -271,12 +272,12 @@ class ClassicsFooter extends RefreshFooter {
   // 构造函数
   ClassicsFooter(
       {GlobalKey<RefreshFooterState> key,
-      this.loadText: "Push to load",
-      this.loadReadyText: "Release to load",
-      this.loadingText: "Loading...",
-      this.loadedText: "Load finished",
-      this.noMoreText: "No more",
-      this.bgColor: Colors.blue,
+      this.loadText: "Segarkan",
+      this.loadReadyText: "Segarkan",
+      this.loadingText: "Segarkan",
+      this.loadedText: "Segarkan selesai",
+      this.noMoreText: "Tidak ada lagi data",
+      this.bgColor: Color(0xffE4E4E4),
       this.textColor: Colors.white,
       this.moreInfoColor: Colors.white,
       this.loadHeight: 70.0,
