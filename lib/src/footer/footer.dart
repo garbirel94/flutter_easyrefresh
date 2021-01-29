@@ -277,7 +277,7 @@ class ClassicsFooter extends RefreshFooter {
       this.loadingText: "Segarkan",
       this.loadedText: "Segarkan selesai",
       this.noMoreText: "Tidak ada lagi data",
-      this.bgColor: Color(0xffE4E4E4),
+      this.bgColor: const Color(0xffE4E4E4),
       this.textColor: Colors.white,
       this.moreInfoColor: Colors.white,
       this.loadHeight: 70.0,
